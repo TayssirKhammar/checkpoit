@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+
+</head>
+<body>
+
+
+<button id ="gras" onclick="g()">G</button>
+<button id="it "onclick="I()">I</button>
+<button id="sou"onclick="S()">S</button>
+<select id="liste" onchange="test()">
+	<option value="arial">arial </option>
+	<option value="century">century</option>
+	<option value="algerian">algerian</option>     
+
+</select>
+<select id="liste" onchange="num()"  >
+	<option value="12">12</option>
+	<option value="14">14</option>
+	<option value="16">16</option>
+</select>
+<br>
+<textarea id="text">  </textarea>
+<script type="">
+	
+<script>
+	function test() {
+  document.getElementById("liste").style.fontFamily = "arial";
+    document.getElementById("liste").style.fontFamily = "algerian";
+      document.getElementById("liste").style.fontFamily = "century";
+}
+function num() {
+  document.getElementById("liste").value.style.fontSize = "12";
+    document.getElementById("liste").value.style.fontSize = "14";
+      document.getElementById("liste").value.style.fontSize= "16";
+}
+
+
+function g() {
+  document.getElementById("gras").style.font = "";
+    
+}
+function I() {
+
+
+  
+  document.getElementById("text").style.color = "red";
+}
+    
+
+function S() {
+  document.getElementById("sou").style.fontFamily = "arial";
+    
+}
+</script>
+
+
+</body>
+</html>
